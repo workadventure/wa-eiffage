@@ -651,7 +651,7 @@
                         {
                          "name":"closeLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_closed"
+                         "value":"doors\/close_auditorium"
                         }, 
                         {
                          "name":"default",
@@ -666,7 +666,7 @@
                         {
                          "name":"openLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_open"
+                         "value":"doors\/open_auditorium"
                         }, 
                         {
                          "name":"persist",
@@ -674,7 +674,7 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":399,
@@ -689,7 +689,7 @@
                         {
                          "name":"closeLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_closed"
+                         "value":"doors\/close_stand1"
                         }, 
                         {
                          "name":"default",
@@ -704,7 +704,7 @@
                         {
                          "name":"openLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_open"
+                         "value":"doors\/open_stand1"
                         }, 
                         {
                          "name":"persist",
@@ -712,7 +712,7 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1040,
@@ -727,7 +727,7 @@
                         {
                          "name":"closeLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_closed"
+                         "value":"doors\/close_stand2"
                         }, 
                         {
                          "name":"default",
@@ -742,7 +742,7 @@
                         {
                          "name":"openLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_open"
+                         "value":"doors\/open_stand2"
                         }, 
                         {
                          "name":"persist",
@@ -750,7 +750,7 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1327,
@@ -765,7 +765,7 @@
                         {
                          "name":"closeLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_closed"
+                         "value":"doors\/close_stand3"
                         }, 
                         {
                          "name":"default",
@@ -780,7 +780,7 @@
                         {
                          "name":"openLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_open"
+                         "value":"doors\/open_stand3"
                         }, 
                         {
                          "name":"persist",
@@ -788,7 +788,7 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1615,
@@ -803,7 +803,7 @@
                         {
                          "name":"closeLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_closed"
+                         "value":"doors\/close_stand4"
                         }, 
                         {
                          "name":"default",
@@ -818,7 +818,7 @@
                         {
                          "name":"openLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_open"
+                         "value":"doors\/open_stand4"
                         }, 
                         {
                          "name":"persist",
@@ -826,7 +826,7 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1905,
@@ -841,7 +841,7 @@
                         {
                          "name":"closeLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_closed"
+                         "value":"doors\/close_stand5"
                         }, 
                         {
                          "name":"default",
@@ -856,7 +856,7 @@
                         {
                          "name":"openLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_open"
+                         "value":"doors\/open_stand5"
                         }, 
                         {
                          "name":"persist",
@@ -864,7 +864,7 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":2191,
@@ -879,7 +879,7 @@
                         {
                          "name":"closeLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_closed"
+                         "value":"doors\/close_stand6"
                         }, 
                         {
                          "name":"default",
@@ -894,7 +894,7 @@
                         {
                          "name":"openLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_open"
+                         "value":"doors\/open_stand6"
                         }, 
                         {
                          "name":"persist",
@@ -902,7 +902,7 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":2477,
@@ -917,7 +917,7 @@
                         {
                          "name":"closeLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_closed"
+                         "value":"doors\/close_work1"
                         }, 
                         {
                          "name":"default",
@@ -932,7 +932,7 @@
                         {
                          "name":"openLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_open"
+                         "value":"doors\/open_work1"
                         }, 
                         {
                          "name":"persist",
@@ -940,7 +940,7 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":913,
@@ -955,7 +955,7 @@
                         {
                          "name":"closeLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_closed"
+                         "value":"doors\/close_work2"
                         }, 
                         {
                          "name":"default",
@@ -970,7 +970,7 @@
                         {
                          "name":"openLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_open"
+                         "value":"doors\/open_work2"
                         }, 
                         {
                          "name":"persist",
@@ -978,7 +978,7 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1229,
@@ -993,7 +993,7 @@
                         {
                          "name":"closeLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_closed"
+                         "value":"doors\/close_work3"
                         }, 
                         {
                          "name":"default",
@@ -1008,7 +1008,7 @@
                         {
                          "name":"openLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_open"
+                         "value":"doors\/open_work3"
                         }, 
                         {
                          "name":"persist",
@@ -1016,7 +1016,7 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1581,
@@ -1031,7 +1031,7 @@
                         {
                          "name":"closeLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_closed"
+                         "value":"doors\/close_work4"
                         }, 
                         {
                          "name":"default",
@@ -1046,7 +1046,7 @@
                         {
                          "name":"openLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_open"
+                         "value":"doors\/open_work4"
                         }, 
                         {
                          "name":"persist",
@@ -1054,7 +1054,7 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1906,
@@ -1069,7 +1069,7 @@
                         {
                          "name":"closeLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_closed"
+                         "value":"doors\/close_work5"
                         }, 
                         {
                          "name":"default",
@@ -1084,7 +1084,7 @@
                         {
                          "name":"openLayer",
                          "type":"string",
-                         "value":"doors\/door4_meeting_open"
+                         "value":"doors\/open_work5"
                         }, 
                         {
                          "name":"persist",
@@ -1092,7 +1092,7 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":2262,
@@ -1116,12 +1116,12 @@
                         {
                          "name":"doorVariable",
                          "type":"string",
-                         "value":"doorOffice"
+                         "value":"auditorium"
                         }, 
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"zone_office"
+                         "value":"zone_auditorium"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1148,12 +1148,12 @@
                         {
                          "name":"doorVariable",
                          "type":"string",
-                         "value":"doorOffice"
+                         "value":"stand1"
                         }, 
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"zone_office"
+                         "value":"zone_stand1"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1180,12 +1180,12 @@
                         {
                          "name":"doorVariable",
                          "type":"string",
-                         "value":"doorOffice"
+                         "value":"stand2"
                         }, 
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"zone_office"
+                         "value":"zone_stand2"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1212,12 +1212,12 @@
                         {
                          "name":"doorVariable",
                          "type":"string",
-                         "value":"doorOffice"
+                         "value":"stand3"
                         }, 
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"zone_office"
+                         "value":"zone_stand3"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1244,12 +1244,12 @@
                         {
                          "name":"doorVariable",
                          "type":"string",
-                         "value":"doorOffice"
+                         "value":"stand4"
                         }, 
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"zone_office"
+                         "value":"zone_stand4"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1276,12 +1276,12 @@
                         {
                          "name":"doorVariable",
                          "type":"string",
-                         "value":"doorOffice"
+                         "value":"stand5"
                         }, 
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"zone_office"
+                         "value":"zone_stand5"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1308,12 +1308,12 @@
                         {
                          "name":"doorVariable",
                          "type":"string",
-                         "value":"doorOffice"
+                         "value":"stand6"
                         }, 
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"zone_office"
+                         "value":"zone_stand6"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1340,12 +1340,12 @@
                         {
                          "name":"doorVariable",
                          "type":"string",
-                         "value":"doorOffice"
+                         "value":"work1"
                         }, 
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"zone_office"
+                         "value":"zone_work1"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1372,12 +1372,12 @@
                         {
                          "name":"doorVariable",
                          "type":"string",
-                         "value":"doorOffice"
+                         "value":"work2"
                         }, 
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"zone_office"
+                         "value":"zone_work2"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1404,12 +1404,12 @@
                         {
                          "name":"doorVariable",
                          "type":"string",
-                         "value":"doorOffice"
+                         "value":"work3"
                         }, 
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"zone_office"
+                         "value":"zone_work3"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1436,12 +1436,12 @@
                         {
                          "name":"doorVariable",
                          "type":"string",
-                         "value":"doorOffice"
+                         "value":"work4"
                         }, 
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"zone_office"
+                         "value":"zone_work4"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1468,12 +1468,12 @@
                         {
                          "name":"doorVariable",
                          "type":"string",
-                         "value":"doorOffice"
+                         "value":"work5"
                         }, 
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"zone_office"
+                         "value":"zone_work5"
                         }],
                  "rotation":0,
                  "type":"area",
