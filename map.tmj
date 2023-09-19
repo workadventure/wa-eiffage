@@ -2448,7 +2448,7 @@
                  "y":1248.33333333333
                 }, 
                 {
-                 "height":274,
+                 "height":289.333333333333,
                  "id":156,
                  "name":"zone_main2",
                  "properties":[
@@ -2475,9 +2475,9 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":81.6666666666666,
-                 "x":727.5,
-                 "y":643.666666666667
+                 "width":81,
+                 "x":726.833333333333,
+                 "y":643
                 }],
          "opacity":1,
          "type":"objectgroup",
