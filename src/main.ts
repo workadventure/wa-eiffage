@@ -37,8 +37,9 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    link = WA.state.lnk_popup_work2; 
-                    popupPrivateOffice2?.close(link);
+                    link = WA.state.lnk_popup_work2;
+                    WA.nav.openCoWebSite(link);
+                    popupPrivateOffice2?.close();
                     popupPrivateOffice2 = null;
                 }
             }]);
