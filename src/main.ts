@@ -10,6 +10,7 @@ let popupPrivateOffice3: Popup|null;
 let popupPrivateOffice4: Popup|null;
 let popupPrivateOffice5: Popup|null;
 let popupStand: Popup|null;
+let link: any;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
@@ -21,7 +22,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    let site = WA.state.lnk_popup_work1; 
+                    link = WA.state.lnk_popup_work1; 
                     WA.nav.openCoWebSite(site);
                     popupPrivateOffice1?.close();
                     popupPrivateOffice1 = null;
@@ -36,7 +37,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    let site = WA.state.lnk_popup_work2; 
+                    link = WA.state.lnk_popup_work2; 
                     popupPrivateOffice2?.close(site);
                     popupPrivateOffice2 = null;
                 }
@@ -50,7 +51,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    let site = WA.state.lnk_popup_work3; 
+                    link = WA.state.lnk_popup_work3; 
                     WA.nav.openCoWebSite(site);
                     popupPrivateOffice3?.close();
                     popupPrivateOffice3 = null;
@@ -65,7 +66,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    let site = WA.state.lnk_popup_work3; 
+                    link = WA.state.lnk_popup_work4; 
                     WA.nav.openCoWebSite(site);
                     popupPrivateOffice4?.close();
                     popupPrivateOffice4 = null;
@@ -80,7 +81,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    let site = WA.state.lnk_popup_work5; 
+                    link = WA.state.lnk_popup_work5; 
                     WA.nav.openCoWebSite(site);
                     popupPrivateOffice5?.close();
                     popupPrivateOffice5 = null;
