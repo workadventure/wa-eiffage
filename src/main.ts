@@ -1,5 +1,5 @@
 /// <reference types="@workadventure/iframe-api-typings" />
-
+import { Popup } from "@workadventure/iframe-api-typings";
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully');
@@ -21,7 +21,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    WA.nav.openCoWebSite(WA.state.lnk_popup_work1);
+                    WA.nav.openCoWebSite(WA.state.lnk_popup_work1.toString());
                     popupPrivateOffice1?.close();
                     popupPrivateOffice1 = null;
                 }
@@ -35,7 +35,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    WA.nav.openCoWebSite(WA.state.lnk_popup_work2);
+                    WA.nav.openCoWebSite(WA.state.lnk_popup_work2.toString());
                     popupPrivateOffice2?.close();
                     popupPrivateOffice2 = null;
                 }
@@ -49,7 +49,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    WA.nav.openCoWebSite(WA.state.lnk_popup_work3);
+                    WA.nav.openCoWebSite(WA.state.lnk_popup_work3.toString());
                     popupPrivateOffice3?.close();
                     popupPrivateOffice3 = null;
                 }
@@ -63,7 +63,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    WA.nav.openCoWebSite(WA.state.lnk_popup_work4);
+                    WA.nav.openCoWebSite(WA.state.lnk_popup_work4.toString());
                     popupPrivateOffice4?.close();
                     popupPrivateOffice4 = null;
                 }
@@ -77,7 +77,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    WA.nav.openCoWebSite(WA.state.lnk_popup_work5);
+                    WA.nav.openCoWebSite(WA.state.lnk_popup_work5.toString());
                     popupPrivateOffice5?.close();
                     popupPrivateOffice5 = null;
                 }
