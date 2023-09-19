@@ -23,7 +23,7 @@ WA.onInit().then(() => {
             className: "primary",
             callback: () => {
                     link = WA.state.lnk_popup_work1; 
-                    WA.nav.openCoWebSite(site);
+                    WA.nav.openCoWebSite(link);
                     popupPrivateOffice1?.close();
                     popupPrivateOffice1 = null;
                 }
@@ -38,7 +38,7 @@ WA.onInit().then(() => {
             className: "primary",
             callback: () => {
                     link = WA.state.lnk_popup_work2; 
-                    popupPrivateOffice2?.close(site);
+                    popupPrivateOffice2?.close(link);
                     popupPrivateOffice2 = null;
                 }
             }]);
@@ -52,7 +52,7 @@ WA.onInit().then(() => {
             className: "primary",
             callback: () => {
                     link = WA.state.lnk_popup_work3; 
-                    WA.nav.openCoWebSite(site);
+                    WA.nav.openCoWebSite(link);
                     popupPrivateOffice3?.close();
                     popupPrivateOffice3 = null;
                 }
@@ -67,7 +67,7 @@ WA.onInit().then(() => {
             className: "primary",
             callback: () => {
                     link = WA.state.lnk_popup_work4; 
-                    WA.nav.openCoWebSite(site);
+                    WA.nav.openCoWebSite(link);
                     popupPrivateOffice4?.close();
                     popupPrivateOffice4 = null;
                 }
@@ -82,7 +82,7 @@ WA.onInit().then(() => {
             className: "primary",
             callback: () => {
                     link = WA.state.lnk_popup_work5; 
-                    WA.nav.openCoWebSite(site);
+                    WA.nav.openCoWebSite(link);
                     popupPrivateOffice5?.close();
                     popupPrivateOffice5 = null;
                 }
