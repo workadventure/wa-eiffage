@@ -21,7 +21,8 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    WA.nav.openCoWebSite(WA.state.lnk_popup_work1.toString());
+                    var site = WA.state.lnk_popup_work1; 
+                    WA.nav.openCoWebSite(site);
                     popupPrivateOffice1?.close();
                     popupPrivateOffice1 = null;
                 }
@@ -35,8 +36,8 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    WA.nav.openCoWebSite(WA.state.lnk_popup_work2.toString());
-                    popupPrivateOffice2?.close();
+                    var site = WA.state.lnk_popup_work2; 
+                    popupPrivateOffice2?.close(site);
                     popupPrivateOffice2 = null;
                 }
             }]);
@@ -49,7 +50,8 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    WA.nav.openCoWebSite(WA.state.lnk_popup_work3.toString());
+                    var site = WA.state.lnk_popup_work3; 
+                    WA.nav.openCoWebSite(site);
                     popupPrivateOffice3?.close();
                     popupPrivateOffice3 = null;
                 }
@@ -63,7 +65,8 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    WA.nav.openCoWebSite(WA.state.lnk_popup_work4.toString());
+                    var site = WA.state.lnk_popup_work3; 
+                    WA.nav.openCoWebSite(site);
                     popupPrivateOffice4?.close();
                     popupPrivateOffice4 = null;
                 }
@@ -77,7 +80,8 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    WA.nav.openCoWebSite(WA.state.lnk_popup_work5.toString());
+                    var site = WA.state.lnk_popup_work5; 
+                    WA.nav.openCoWebSite(site);
                     popupPrivateOffice5?.close();
                     popupPrivateOffice5 = null;
                 }
