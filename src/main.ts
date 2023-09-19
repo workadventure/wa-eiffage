@@ -21,7 +21,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    var site = WA.state.lnk_popup_work1; 
+                    let site = WA.state.lnk_popup_work1; 
                     WA.nav.openCoWebSite(site);
                     popupPrivateOffice1?.close();
                     popupPrivateOffice1 = null;
@@ -36,7 +36,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    var site = WA.state.lnk_popup_work2; 
+                    let site = WA.state.lnk_popup_work2; 
                     popupPrivateOffice2?.close(site);
                     popupPrivateOffice2 = null;
                 }
@@ -50,7 +50,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    var site = WA.state.lnk_popup_work3; 
+                    let site = WA.state.lnk_popup_work3; 
                     WA.nav.openCoWebSite(site);
                     popupPrivateOffice3?.close();
                     popupPrivateOffice3 = null;
@@ -65,7 +65,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    var site = WA.state.lnk_popup_work3; 
+                    let site = WA.state.lnk_popup_work3; 
                     WA.nav.openCoWebSite(site);
                     popupPrivateOffice4?.close();
                     popupPrivateOffice4 = null;
@@ -80,7 +80,7 @@ WA.onInit().then(() => {
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
-                    var site = WA.state.lnk_popup_work5; 
+                    let site = WA.state.lnk_popup_work5; 
                     WA.nav.openCoWebSite(site);
                     popupPrivateOffice5?.close();
                     popupPrivateOffice5 = null;
