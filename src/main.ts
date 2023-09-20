@@ -7,8 +7,8 @@ console.log('Script started successfully');
 let popupPrivateOffice1: Popup|null;
 let popupPrivateOffice2: Popup|null;
 let popupPrivateOffice3: Popup|null;
-let popupPrivateOffice4: Popup|null;
-let popupPrivateOffice5: Popup|null;
+//let popupPrivateOffice4: Popup|null;
+//let popupPrivateOffice5: Popup|null;
 let popupStand: Popup|null;
 let link: any;
 
@@ -60,6 +60,7 @@ WA.onInit().then(() => {
             }]);
         }
     });
+    /*
     WA.room.area.onEnter("zone_work4").subscribe(() => {
         if(popupPrivateOffice4) return;
         if(!WA.state.work4) {
@@ -90,6 +91,7 @@ WA.onInit().then(() => {
             }]);
         }
     });
+    */
 
     WA.room.area.onLeave("zone_work1").subscribe(() => {
         popupPrivateOffice1?.close();
@@ -103,6 +105,7 @@ WA.onInit().then(() => {
         popupPrivateOffice3?.close();
         popupPrivateOffice3 = null;
     });
+    /*
     WA.room.area.onLeave("zone_work4").subscribe(() => {
         popupPrivateOffice4?.close();
         popupPrivateOffice4 = null;
@@ -111,6 +114,7 @@ WA.onInit().then(() => {
         popupPrivateOffice5?.close();
         popupPrivateOffice5 = null;
     });
+    */
 
     WA.room.area.onEnter("zone_intro_stand1").subscribe(() => {
         if(popupStand) return;
