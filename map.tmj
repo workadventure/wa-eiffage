@@ -2109,10 +2109,318 @@
                  "width":0,
                  "x":2166,
                  "y":552.666666666667
+                }, 
+                {
+                 "height":0,
+                 "id":162,
+                 "name":"txt_popup_work1",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"Le workshop est d\u00e9j\u00e0 en cours, consultez le programme pour conna\u00eetre l'horaire de la prochaine session. \u00c0 tout \u00e0 l'heure !"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Texte popup workshop 1"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":866,
+                 "y":540
+                }, 
+                {
+                 "height":0,
+                 "id":163,
+                 "name":"txt_popup_work2",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"Le workshop est d\u00e9j\u00e0 en cours, consultez le programme pour conna\u00eetre l'horaire de la prochaine session. \u00c0 tout \u00e0 l'heure !"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Texte popup workshop 2"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":1187,
+                 "y":537
+                }, 
+                {
+                 "height":0,
+                 "id":164,
+                 "name":"txt_popup_work3",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"Le workshop est d\u00e9j\u00e0 en cours, consultez le programme pour conna\u00eetre l'horaire de la prochaine session. \u00c0 tout \u00e0 l'heure !"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Texte popup workshop 3"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":1538,
+                 "y":536
+                }, 
+                {
+                 "height":0,
+                 "id":165,
+                 "name":"txt_popup_work4",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"Le workshop est d\u00e9j\u00e0 en cours, consultez le programme pour conna\u00eetre l'horaire de la prochaine session. \u00c0 tout \u00e0 l'heure !"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Texte popup workshop 4"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":1859,
+                 "y":538
+                }, 
+                {
+                 "height":0,
+                 "id":166,
+                 "name":"txt_popup_work5",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"Le workshop est d\u00e9j\u00e0 en cours, consultez le programme pour conna\u00eetre l'horaire de la prochaine session. \u00c0 tout \u00e0 l'heure !"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Texte popup workshop 5"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":2215,
+                 "y":539
+                }, 
+                {
+                 "height":0,
+                 "id":167,
+                 "name":"txt_popup_stand1",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"Merci de consulter les vid\u00e9os sur les bornes avant d'entrer dans l'espace pour poser vos questions au cr\u00e9ateur de l'application"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Texte popup stand 1"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":1186,
+                 "y":1051
+                }, 
+                {
+                 "height":0,
+                 "id":168,
+                 "name":"txt_popup_stand2",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"Merci de consulter les vid\u00e9os sur les bornes avant d'entrer dans l'espace pour poser vos questions au cr\u00e9ateur de l'application"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Texte popup stand 2"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":1473,
+                 "y":1047
+                }, 
+                {
+                 "height":0,
+                 "id":169,
+                 "name":"txt_popup_stand3",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"Merci de consulter les vid\u00e9os sur les bornes avant d'entrer dans l'espace pour poser vos questions au cr\u00e9ateur de l'application"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Texte popup stand 3"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":1759,
+                 "y":1051
+                }, 
+                {
+                 "height":0,
+                 "id":170,
+                 "name":"txt_popup_stand4",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"Merci de consulter les vid\u00e9os sur les bornes avant d'entrer dans l'espace pour poser vos questions au cr\u00e9ateur de l'application"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Texte popup stand 4"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":2049,
+                 "y":1052
+                }, 
+                {
+                 "height":0,
+                 "id":171,
+                 "name":"txt_popup_stand5",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"Merci de consulter les vid\u00e9os sur les bornes avant d'entrer dans l'espace pour poser vos questions au cr\u00e9ateur de l'application"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Texte popup stand 5"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":2335,
+                 "y":1051
+                }, 
+                {
+                 "height":0,
+                 "id":172,
+                 "name":"txt_popup_stand6",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"Facturation : une application qui permet d\u2019uniformiser les demandes de facturation et de suivre finement la facturation par affaire. Merci de consulter les deux vid\u00e9os aux bornes avant d\u2019entrer dans l\u2019espace pour poser vos questions au cr\u00e9ateur de l\u2019application."
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Texte popup stand 6"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":2622,
+                 "y":1051
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -4481,7 +4789,7 @@
          "y":0
         }],
  "nextlayerid":98,
- "nextobjectid":162,
+ "nextobjectid":173,
  "orientation":"orthogonal",
  "properties":[
         {
