@@ -18,7 +18,7 @@ WA.onInit().then(() => {
     WA.room.area.onEnter("zone_work1").subscribe(() => {
         if(popupPrivateOffice1) return;
         if(!WA.state.work1) {
-            popupPrivateOffice1 = WA.ui.openPopup("popup_work1", WA.state.txt_popup_work1, [{
+            popupPrivateOffice1 = WA.ui.openPopup("popup_work1", WA.state.txt_popup_work1.toString(), [{
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
@@ -33,7 +33,7 @@ WA.onInit().then(() => {
     WA.room.area.onEnter("zone_work2").subscribe(() => {
         if(popupPrivateOffice2) return;
         if(!WA.state.work2) {
-            popupPrivateOffice2 = WA.ui.openPopup("popup_work2", WA.state.txt_popup_work2, [{
+            popupPrivateOffice2 = WA.ui.openPopup("popup_work2", WA.state.txt_popup_work2.toString(), [{
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
@@ -48,7 +48,7 @@ WA.onInit().then(() => {
     WA.room.area.onEnter("zone_work3").subscribe(() => {
         if(popupPrivateOffice3) return;
         if(!WA.state.work3) {
-            popupPrivateOffice3 = WA.ui.openPopup("popup_work3", WA.state.txt_popup_work3, [{
+            popupPrivateOffice3 = WA.ui.openPopup("popup_work3", WA.state.txt_popup_work3.toString(), [{
             label: "Ouvrir le programme",
             className: "primary",
             callback: () => {
@@ -118,7 +118,7 @@ WA.onInit().then(() => {
 
     WA.room.area.onEnter("zone_intro_stand1").subscribe(() => {
         if(popupStand) return;
-        popupStand = WA.ui.openPopup("popup_stand1", WA.state.txt_popup_stand1, [{
+        popupStand = WA.ui.openPopup("popup_stand1", WA.state.txt_popup_stand1.toString(), [{
         label: "Fermer",
         className: "primary",
         callback: () => {
@@ -134,7 +134,7 @@ WA.onInit().then(() => {
 
     WA.room.area.onEnter("zone_intro_stand2").subscribe(() => {
         if(popupStand) return;
-        popupStand = WA.ui.openPopup("popup_stand2", WA.state.txt_popup_stand2, [{
+        popupStand = WA.ui.openPopup("popup_stand2", WA.state.txt_popup_stand2.toString(), [{
         label: "Fermer",
         className: "primary",
         callback: () => {
@@ -150,7 +150,7 @@ WA.onInit().then(() => {
 
     WA.room.area.onEnter("zone_intro_stand3").subscribe(() => {
         if(popupStand) return;
-        popupStand = WA.ui.openPopup("popup_stand3", WA.state.txt_popup_stand3, [{
+        popupStand = WA.ui.openPopup("popup_stand3", WA.state.txt_popup_stand3.toString(), [{
         label: "Fermer",
         className: "primary",
         callback: () => {
@@ -166,7 +166,7 @@ WA.onInit().then(() => {
 
     WA.room.area.onEnter("zone_intro_stand4").subscribe(() => {
         if(popupStand) return;
-        popupStand = WA.ui.openPopup("popup_stand4", WA.state.txt_popup_stand4, [{
+        popupStand = WA.ui.openPopup("popup_stand4", WA.state.txt_popup_stand4.toString(), [{
         label: "Fermer",
         className: "primary",
         callback: () => {
@@ -182,7 +182,7 @@ WA.onInit().then(() => {
 
     WA.room.area.onEnter("zone_intro_stand5").subscribe(() => {
         if(popupStand) return;
-        popupStand = WA.ui.openPopup("popup_stand5", WA.state.txt_popup_stand5, [{
+        popupStand = WA.ui.openPopup("popup_stand5", WA.state.txt_popup_stand5.toString(), [{
         label: "Fermer",
         className: "primary",
         callback: () => {
@@ -199,7 +199,7 @@ WA.onInit().then(() => {
 
     WA.room.area.onEnter("zone_intro_stand6").subscribe(() => {
         if(popupStand) return;
-        popupStand = WA.ui.openPopup("popup_stand6", WA.state.txt_popup_stand6, [{
+        popupStand = WA.ui.openPopup("popup_stand6", WA.state.txt_popup_stand6.toString(), [{
         label: "Fermer",
         className: "primary",
         callback: () => {
