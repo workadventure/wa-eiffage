@@ -196,6 +196,23 @@ WA.onInit().then(() => {
         popupStand = null;
     });
 
+
+    WA.room.area.onEnter("zone_intro_stand6").subscribe(() => {
+        if(popupStand) return;
+        popupStand = WA.ui.openPopup("popup_stand6", " Facturation : une application qui permet d’uniformiser les demandes de facturation et de suivre finement la facturation par affaire. Merci de consulter les deux vidéos aux bornes avant d’entrer dans l’espace pour poser vos questions au créateur de l’application. ", [{
+        label: "Fermer",
+        className: "primary",
+        callback: () => {
+                popupStand?.close();
+                popupStand = null;
+            }
+        }]);
+    });
+    WA.room.area.onLeave("zone_intro_stand6").subscribe(() => {
+        popupStand?.close();
+        popupStand = null;
+    });
+
     
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
