@@ -2,6 +2,8 @@
 import { Popup } from "@workadventure/iframe-api-typings";
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
+import "./help/button";
+
 console.log('Script started successfully');
 
 let popupPrivateOffice1: Popup|null;
