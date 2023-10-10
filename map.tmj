@@ -1826,7 +1826,7 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":92.5,
+                 "width":113.166666666667,
                  "x":723.5,
                  "y":1248.33333333333
                 }, 
@@ -1863,7 +1863,7 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":81,
+                 "width":111,
                  "x":726.833333333333,
                  "y":643
                 }, 
