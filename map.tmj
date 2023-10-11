@@ -1199,43 +1199,6 @@
                  "y":1617
                 }, 
                 {
-                 "height":1064,
-                 "id":60,
-                 "name":"jitsi_auditorium",
-                 "properties":[
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithAudioMuted\": true, \"startWithVideoMuted\": true }"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"jitsi_auditorium"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"orga"
-                        }, 
-                        {
-                         "name":"jitsiWidth",
-                         "type":"int",
-                         "value":80
-                        }, 
-                        {
-                         "name":"openWebsiteClosable",
-                         "type":"bool",
-                         "value":false
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":737.333333333333,
-                 "x":28,
-                 "y":61.3333333333333
-                }, 
-                {
                  "height":107.833333333333,
                  "id":126,
                  "name":"popup_work5",
@@ -3937,8 +3900,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":98,
- "nextobjectid":173,
+ "nextlayerid":99,
+ "nextobjectid":174,
  "orientation":"orthogonal",
  "properties":[
         {
