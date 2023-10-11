@@ -1496,6 +1496,23 @@
                  "width":323.5,
                  "x":2400.5,
                  "y":818.5
+                }, 
+                {
+                 "height":843,
+                 "id":174,
+                 "name":"YoutubeLive",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"{{{youtubeLink}}}"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":744,
+                 "x":27,
+                 "y":281
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1902,34 +1919,6 @@
                 }, 
                 {
                  "height":0,
-                 "id":171,
-                 "name":"txt_popup_stand5",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"default",
-                         "type":"string",
-                         "value":"Merci de consulter les vid\u00e9os sur les bornes avant d'entrer dans l'espace pour poser vos questions au cr\u00e9ateur de l'application"
-                        }, 
-                        {
-                         "name":"label",
-                         "type":"string",
-                         "value":"Texte popup stand 5"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":2335,
-                 "y":1051
-                }, 
-                {
-                 "height":0,
                  "id":172,
                  "name":"txt_popup_stand6",
                  "point":true,
@@ -1955,6 +1944,34 @@
                  "width":0,
                  "x":2622,
                  "y":1051
+                }, 
+                {
+                 "height":0,
+                 "id":175,
+                 "name":"youtubeLink",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/live_stream?channel=[channel ID]"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Lien Embed du Youtube Live"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":396,
+                 "y":316
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3900,8 +3917,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":99,
- "nextobjectid":174,
+ "nextlayerid":100,
+ "nextobjectid":176,
  "orientation":"orthogonal",
  "properties":[
         {
