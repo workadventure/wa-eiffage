@@ -1493,9 +1493,9 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":323.5,
-                 "x":2400.5,
-                 "y":818.5
+                 "width":361.5,
+                 "x":2379.16666666667,
+                 "y":844.833333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
