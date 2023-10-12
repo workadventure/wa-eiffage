@@ -3,6 +3,7 @@ import { Popup } from "@workadventure/iframe-api-typings";
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 import "./help/button";
+import "./speaker/access";
 
 console.log('Script started successfully');
 
