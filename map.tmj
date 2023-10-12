@@ -1927,6 +1927,34 @@
                  "width":0,
                  "x":2622,
                  "y":1051
+                }, 
+                {
+                 "height":0,
+                 "id":176,
+                 "name":"txt_popup_stand5",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"Merci de consulter les vid\u00e9os sur les bornes avant d'entrer dans l'espace pour poser vos questions au cr\u00e9ateur de l'application"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Texte popup stand 5"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":2329.33333333333,
+                 "y":1036.66666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3873,7 +3901,7 @@
          "y":0
         }],
  "nextlayerid":102,
- "nextobjectid":176,
+ "nextobjectid":177,
  "orientation":"orthogonal",
  "properties":[
         {
