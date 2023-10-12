@@ -1496,6 +1496,28 @@
                  "width":361.5,
                  "x":2379.16666666667,
                  "y":844.833333333333
+                }, 
+                {
+                 "height":1064,
+                 "id":178,
+                 "name":"chatZone",
+                 "properties":[
+                        {
+                         "name":"chatDescription",
+                         "type":"string",
+                         "value":"Vous pouvez poser vos questions ici !"
+                        }, 
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Chat Auditorium"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":746,
+                 "x":26,
+                 "y":60
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3901,7 +3923,7 @@
          "y":0
         }],
  "nextlayerid":102,
- "nextobjectid":177,
+ "nextobjectid":179,
  "orientation":"orthogonal",
  "properties":[
         {
