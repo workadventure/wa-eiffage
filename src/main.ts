@@ -222,6 +222,17 @@ WA.onInit().then(() => {
         console.log('Scripting API Extra ready');
     }).catch(e => console.error(e));
 
+    // Detect if the browser if Firefox. If yet, open a popup to recommend using Chrome.
+    if (navigator.userAgent.indexOf("Firefox") != -1) {
+        WA.ui.openPopup("popup_firefox", "Pour une meilleure expérience, nous vous recommandons d'utiliser Chrome. Merci !", [{
+            label: "Fermer",
+            className: "primary",
+            callback: (popup) => {
+                popup.close();
+            }
+        }]);
+    }
+
 }).catch(e => console.error(e));
 
 

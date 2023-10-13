@@ -1589,6 +1589,17 @@
                  "width":746,
                  "x":26,
                  "y":60
+                }, 
+                {
+                 "height":146.614666205465,
+                 "id":179,
+                 "name":"popup_firefox",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":348.852300242131,
+                 "x":230.278104462124,
+                 "y":1610.36613628502
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3994,7 +4005,7 @@
          "y":0
         }],
  "nextlayerid":103,
- "nextobjectid":179,
+ "nextobjectid":180,
  "orientation":"orthogonal",
  "properties":[
         {
