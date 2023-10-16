@@ -1742,17 +1742,12 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"jitsiWorkStaff"
+                         "value":"jitsiworkstaff"
                         }, 
                         {
                          "name":"jitsiRoomAdminTag",
                          "type":"string",
                          "value":"intervenant"
-                        }, 
-                        {
-                         "name":"openWebsiteClosable",
-                         "type":"bool",
-                         "value":false
                         }],
                  "rotation":0,
                  "type":"area",
@@ -4200,7 +4195,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.1",
+ "tiledversion":"1.10.2",
  "tileheight":32,
  "tilesets":[
         {
