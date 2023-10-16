@@ -1619,7 +1619,7 @@
                         {
                          "name":"jitsiRoomAdminTag",
                          "type":"string",
-                         "value":"speaker"
+                         "value":"intervenant"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -1651,7 +1651,7 @@
                         {
                          "name":"jitsiRoomAdminTag",
                          "type":"string",
-                         "value":"speaker"
+                         "value":"intervenant"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -1683,7 +1683,7 @@
                         {
                          "name":"jitsiRoomAdminTag",
                          "type":"string",
-                         "value":"speaker"
+                         "value":"intervenant"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -1715,7 +1715,7 @@
                         {
                          "name":"jitsiRoomAdminTag",
                          "type":"string",
-                         "value":"speaker"
+                         "value":"intervenant"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -1747,7 +1747,7 @@
                         {
                          "name":"jitsiRoomAdminTag",
                          "type":"string",
-                         "value":"speaker"
+                         "value":"intervenant"
                         }, 
                         {
                          "name":"openWebsiteClosable",
