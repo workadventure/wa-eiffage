@@ -1600,6 +1600,191 @@
                  "width":348.852300242131,
                  "x":230.278104462124,
                  "y":1610.36613628502
+                }, 
+                {
+                 "height":456,
+                 "id":180,
+                 "name":"jitsiWork1",
+                 "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithAudioMuted\": true }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"jitsiWork1"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"intervenant"
+                        }, 
+                        {
+                         "name":"jitsiWidth",
+                         "type":"int",
+                         "value":80
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":false
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":313.333333333333,
+                 "x":778.666666666667,
+                 "y":58.6666666666667
+                }, 
+                {
+                 "height":454.666666666667,
+                 "id":182,
+                 "name":"jitsiWork2",
+                 "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithAudioMuted\": true }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"jitsiWork2"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"intervenant"
+                        }, 
+                        {
+                         "name":"jitsiWidth",
+                         "type":"int",
+                         "value":80
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":false
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":322.666666666667,
+                 "x":1117.33333333333,
+                 "y":58.6666666666667
+                }, 
+                {
+                 "height":456,
+                 "id":183,
+                 "name":"jitsiWork3",
+                 "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithAudioMuted\": true }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"jitsiWork3"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"intervenant"
+                        }, 
+                        {
+                         "name":"jitsiWidth",
+                         "type":"int",
+                         "value":80
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":false
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":297.333333333333,
+                 "x":1466.66666666667,
+                 "y":58.6666666666667
+                }, 
+                {
+                 "height":458.666666666667,
+                 "id":184,
+                 "name":"jitsiWork4",
+                 "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithAudioMuted\": true }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"jitsiWork4"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"intervenant"
+                        }, 
+                        {
+                         "name":"jitsiWidth",
+                         "type":"int",
+                         "value":80
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":false
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":328,
+                 "x":1786.66666666667,
+                 "y":56
+                }, 
+                {
+                 "height":458.666666666667,
+                 "id":185,
+                 "name":"jitsiWorkStaff",
+                 "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithAudioMuted\": true }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"jitsiWorkStaff"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"intervenant"
+                        }, 
+                        {
+                         "name":"jitsiWidth",
+                         "type":"int",
+                         "value":80
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":false
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":316,
+                 "x":2126.66666666667,
+                 "y":57.3333333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -4005,7 +4190,7 @@
          "y":0
         }],
  "nextlayerid":103,
- "nextobjectid":180,
+ "nextobjectid":186,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -4034,7 +4219,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.2",
+ "tiledversion":"1.10.1",
  "tileheight":32,
  "tilesets":[
         {
