@@ -289,7 +289,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"jitsiworkstaff"
+                 "value":"jitsiworkstaff_test"
                 }, 
                 {
                  "name":"jitsiRoomAdminTag",
