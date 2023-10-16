@@ -1815,6 +1815,18 @@
                  "width":328,
                  "x":1786.66666666667,
                  "y":56
+                }, 
+                {
+                 "height":0,
+                 "id":186,
+                 "name":"toto",
+                 "point":true,
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":2161.7459998661,
+                 "y":16.0674834304077
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -4226,7 +4238,7 @@
          "y":0
         }],
  "nextlayerid":104,
- "nextobjectid":186,
+ "nextobjectid":187,
  "orientation":"orthogonal",
  "properties":[
         {
