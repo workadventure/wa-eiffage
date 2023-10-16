@@ -1612,11 +1612,6 @@
                          "value":"{ \"startWithAudioMuted\": true }"
                         }, 
                         {
-                         "name":"jitsiInterfaceConfig",
-                         "type":"string",
-                         "value":"{ \"DISABLE_JOIN_LEAVE_NOTIFICATIONS\": true }"
-                        }, 
-                        {
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"jitsiWork1"
@@ -1647,11 +1642,6 @@
                          "name":"jitsiConfig",
                          "type":"string",
                          "value":"{ \"startWithAudioMuted\": true }"
-                        }, 
-                        {
-                         "name":"jitsiInterfaceConfig",
-                         "type":"string",
-                         "value":"{ \"DISABLE_JOIN_LEAVE_NOTIFICATIONS\": true }"
                         }, 
                         {
                          "name":"jitsiRoom",
@@ -1686,11 +1676,6 @@
                          "value":"{ \"startWithAudioMuted\": true }"
                         }, 
                         {
-                         "name":"jitsiInterfaceConfig",
-                         "type":"string",
-                         "value":"{ \"DISABLE_JOIN_LEAVE_NOTIFICATIONS\": true }"
-                        }, 
-                        {
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"jitsiWork3"
@@ -1723,11 +1708,6 @@
                          "value":"{ \"startWithAudioMuted\": true }"
                         }, 
                         {
-                         "name":"jitsiInterfaceConfig",
-                         "type":"string",
-                         "value":"{ \"DISABLE_JOIN_LEAVE_NOTIFICATIONS\": true }"
-                        }, 
-                        {
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"jitsiWork4"
@@ -1758,11 +1738,6 @@
                          "name":"jitsiConfig",
                          "type":"string",
                          "value":"{ \"startWithAudioMuted\": true }"
-                        }, 
-                        {
-                         "name":"jitsiInterfaceConfig",
-                         "type":"string",
-                         "value":"{ \"DISABLE_JOIN_LEAVE_NOTIFICATIONS\": true }"
                         }, 
                         {
                          "name":"jitsiRoom",
@@ -2246,6 +2221,12 @@
                  "y":1036.66666666667
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"tag",
+                 "type":"string",
+                 "value":"admin"
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
