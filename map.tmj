@@ -2153,7 +2153,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/workadventure.github.io\/wa-eiffage\/calendly.htm?calendly={{ link_calendly_zone1 }}"
+                         "value":"https:\/\/workadventure.github.io\/wa-eiffage\/calendly.html?calendly={{ link_calendly_zone1 }}"
                         }, 
                         {
                          "name":"openWebsitePolicy",
