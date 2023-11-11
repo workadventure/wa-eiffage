@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="robots" content="noindex">
+        <meta name="title" content="WorkAdventure Calendly Integration">
+        <link rel="icon" href="https://workadventu.re/favicon-96x96.png">
+        <title>WorkAdventure Calendly Integration</title>
+    </head>
+    <body style="background: none;">
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <script type="text/javascript">
+            // get window location parameter 'calendly'
+            const calendly = new URLSearchParams(window.location.search).get('calendly');
+            // create div element for calendly with calendly url
+            const calendlyDiv = document.createElement('div');
+            calendlyDiv.setAttribute('class', 'calendly-inline-widget');
+            calendlyDiv.setAttribute('data-url', calendly);
+            calendlyDiv.setAttribute('style', 'min-width:320px;height:700px;');
+            // append calendly div to body
+            document.body.appendChild(calendlyDiv);
+        </script>
+    </body>
+</html>
