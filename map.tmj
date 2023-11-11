@@ -2635,12 +2635,12 @@
                         {
                          "name":"default",
                          "type":"string",
-                         "value":"https:\/\/calendly.com\/gregoire-bwu\/30min"
+                         "value":"https%3A%2F%2Fcalendly.com%2Fgregoire-bwu%2F30min"
                         }, 
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Lien calendly zone 1"
+                         "value":"Lien calendly zone 1 (uri encoded)"
                         }, 
                         {
                          "name":"persist",
